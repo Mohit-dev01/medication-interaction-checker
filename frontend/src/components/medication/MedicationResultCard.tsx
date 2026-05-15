@@ -1,4 +1,4 @@
-import { CheckCircle2, AlertTriangle, XCircle, Info, Copy, ExternalLink, Calendar, Stethoscope } from "lucide-react"
+import { CheckCircle2, AlertTriangle, XCircle, Info, Copy, Calendar, Stethoscope } from "lucide-react"
 import type { MedicationCheckData } from "@/types/medication.types"
 
 import { Badge } from "@/components/ui/badge"
@@ -51,10 +51,7 @@ export function MedicationResultCard({ data }: MedicationResultCardProps) {
             <Copy className="mr-2 h-4 w-4" />
             Copy Summary
           </Button>
-          <Button variant="outline" size="sm" className="h-9">
-            <ExternalLink className="mr-2 h-4 w-4" />
-            Export PDF
-          </Button>
+         
         </div>
       </div>
 
